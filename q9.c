@@ -10,11 +10,6 @@ int main() {
     for(i = 0; i < n; i++) {
         if(scores[i] == 99) {
             printf("First occurrence of score 99 found at position: %d\n", i);
-            return 0;   // stop program here
+            return 0;  
         }
-    }
-
-    printf("Score 99 not found in the list.\n");
-
-    return 0;
-}
+    } 
